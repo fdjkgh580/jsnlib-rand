@@ -62,7 +62,7 @@ class Rand
 
 	
 	//取單一字串
-	function get($length, $type)
+	function get(int $length, string $type): string
 	{
 		$a = 0;
 		$str = null;
@@ -80,7 +80,7 @@ class Rand
 	
 	
 	//取多個不重複字串
-	function get_np($length, $quality, $type)
+	function get_np(int $length, int $quality, string $type): array
 	{
 		for ($i = 0; $i < $quality; $i++) 
 		{
