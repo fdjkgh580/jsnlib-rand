@@ -32,7 +32,7 @@ foreach ($result as $val)
 // o5K00e0c4I
 ````
 
-### get_np(int $length, int $quality, string $type): array
+### get_np(int $length, array $type, int $quality = 1): array
 取多個不重複字串
 - length：要顯示的文字長度
 - quality: 數量
